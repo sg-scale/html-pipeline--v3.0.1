@@ -27,7 +27,7 @@ group :development do
 end
 
 group :test do
-  gem "commonmarker", "~> 1.0.0.pre7", require: false
+  gem "commonmarker", "~> 2.0.1", require: false
   gem "gemoji", "~> 4.1", require: false
   gem "gemojione", "~> 4.3", require: false
 
@@ -38,5 +38,5 @@ group :test do
   gem "nokogiri", "~> 1.13"
 
   gem "minitest-focus", "~> 1.1"
-  gem "rouge", "~> 4.1", require: false
+  gem "rouge", "~> 5.1", require: false
 end
